@@ -1,0 +1,10 @@
+
+0.3	a partir de la version 0.6 de mdfprm sa fonction srvhtt est remplacee par le programme srvnano (0.3)
+0.3	les formulaires html ont ete modifies POST a la place de GET
+0.3 les noms de variables ont ete corrigees
+0.3 le buffer (BFF) a ete grandi (511 -> 1023)
+0.3 les commandes POST ne sont plus rejettees mais traitees comme si c'etait des commandes GET
+0.3 dans le log le buffer de reception est affiche en plusieurs lignes (recu0, recu1 ...)
+0.3	faire lancement comme srvalm
+	semaphore avec mmrprt
+0.4	affichage entree seuil (slntr) erreur couleur pour l'entree anl et sortie anl (pwm)

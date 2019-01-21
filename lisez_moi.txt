@@ -1,0 +1,40 @@
+
+// nom: srvnano
+// long: serveur WEB de Watercooling.INO
+// version: 0.4
+// creation: 01/2017
+// modification: 
+// lancement: automatique
+// but: 
+// complement: mdfprm smlwtr watercooling.ino 
+// paquet: 
+// info: 
+
+but:
+	Automatisation avec carte a µcontroleur
+	Parametrage simple web et interface gaphique
+
+paquet:
+	watercooling.ino arduino carte nano
+	mdfprm gtk visualisation et modification des parametres de la carte nano
+	srvnano serveur http pour interface web
+	smlwtr gtk simulateur watercooling carte nano 
+
+watercooling.ino
+	entrees avec capteurs de temperatures
+	entrees / sorties numeriques
+	entrees analogiques
+	sorties analogiques (pwm)
+	
+srvnano
+	lance en automatique
+	serveur web mise a dispo des donnees sur le reseau local
+	receptionne les donnees de la carte nano
+	gere de la memoire partage pour la dispo des donnees des prog gtk
+
+mdfprm
+	interface graphique pour voir et modifier les parametres
+	
+smlwtr
+	interface graphique qui simule la carte nano
+
